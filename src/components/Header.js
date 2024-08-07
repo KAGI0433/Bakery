@@ -1,18 +1,6 @@
 import './App.css';
 import "./Header.css"
 
-const Header = () => {
-  return (
-  <div className='header-container'>
-    
-    <div className='logo-search-container'>
-        <img src='' alt='' />
-        <div>
-            <input type='text' />
-        </div>
-    </div>
-  </div>
-  );
-};
 
+// eslint-disable-next-line no-undef
 export default Home;
