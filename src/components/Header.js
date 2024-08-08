@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from "../Images/logo.png"
-import { BiSearch } from "react-icons/bi";
+import { BiSearchAlt } from "react-icons/bi";
 
 
 
@@ -12,8 +12,8 @@ const Header = () => {
                 <img src={logo} alt="" />
                 </div>
                 <div className='search-cont'>
-                    <BiSearch className='icon'/>
-                    <input type='text' placeholder=''/>
+                    <BiSearchAlt className='icon'/>
+                    <input type='text' placeholder='Search cakes'/>
                 </div>
         </div>
     );
