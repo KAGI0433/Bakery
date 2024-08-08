@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
 import logo from "../Images/logo.png"
-import { BiSearchAlt } from "react-icons/bi";
-
-
+import { BiSearchAlt, BiUser } from "react-icons/bi";
+import { BiHeart } from "react-icons/bi";
+import { BiCart } from "react-icons/bi";
 
 const Header = () => {
     return (
@@ -15,9 +15,25 @@ const Header = () => {
                     <BiSearchAlt className='icon'/>
                     <input type='text' placeholder='Search cakes'/>
                 </div>
+                
+                <div className='social-icon-cont'>
+                    <div className='headerIcon'>
+                        <BiCart className='heardeIcon-size'/>
+                    </div>
+                    <div className='headerIcon'>
+                    <BiUser className='heardeIcon-size' />
+                    </div>
+                    <div className='headerIcon'>
+                        <BiHeart className='heardeIcon-size' />
+                        </div>
+
+                </div>
+               
         </div>
     );
 };
 
 export default Header;
+
+
 

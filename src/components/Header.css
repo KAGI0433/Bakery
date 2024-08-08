@@ -43,6 +43,32 @@
     outline: none;
 }
 
+.social-icon-cont{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.headerIcon{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4E454;
+    transition-duration: .5s;
+}
+
+.headerIcon-size{
+    width: 30px;
+    height: 30px;
+}
+
+.headerIcon:hover{
+    background-color: #9ebe2b;
+    transform: scale(1.1);
+}
+
 
 
 
