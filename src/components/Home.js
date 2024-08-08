@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import Navbar from './Navbar/Navbar';
-
+import Menu from './Menu'
 
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
         <div>
             <Header />
             <Navbar />
+            <Menu />
         </div>
     );
 };
