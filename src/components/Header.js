@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from "../Images/logo.png"
+import logo from "./Images/logo.png"
 import { BiSearchAlt, BiUser } from "react-icons/bi";
 import { BiHeart } from "react-icons/bi";
 import { BiCart } from "react-icons/bi";

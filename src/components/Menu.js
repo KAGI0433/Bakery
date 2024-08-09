@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Menu.css"
-import blur from "../Images/blur.jpg"
 import { MdDoubleArrow } from "react-icons/md";
 const Menu = () => {
     return (

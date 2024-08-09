@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Navbar.css';
+import  './Navbar.css';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 

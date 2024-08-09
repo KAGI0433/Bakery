@@ -1,5 +1,5 @@
 .main{
-    background-image: url('../Images/blur.jpg');
+    background-image: url('./Images/blur.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
