@@ -12,6 +12,7 @@ const Home = () => {
             <Navbar />
             <Menu />
             <Products />
+            
         </div>
     );
 };
