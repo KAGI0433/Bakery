@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header';
 import Navbar from './Navbar/Navbar';
 import Menu from './Menu'
+import Products from './Products/Products';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Header />
             <Navbar />
             <Menu />
+            <Products />
         </div>
     );
 };
