@@ -3,8 +3,9 @@ import "./Slideone.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import  "Swiper/css";
 import { Autoplay,Navigation  } from 'swiper';
-import carrot from "../Images/carrot.jpg"
-import choco from 
+import { MdDoubleArrow } from "react-icons/md";
+import carrot from "../Images/carrot.jpg";
+import choco from  "../Images/choco.jpg";
 
 
 
@@ -12,7 +13,37 @@ import choco from
 const Slideone = () => {
     return (
         <div>
-           
+           <Swiper>
+            slidePerView={4}
+            spaceBetween={0}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            }}
+
+            navigation={true}
+            modules={{Autoplay, Navigation}}
+            className='mySwiper'
+           </Swiper>
+
+           <SwiperSlide>
+            <div className='hoverIncrease'>
+                <img src={carrot} alt="" />
+                <div className='content'>
+                    <h1>product one</h1>
+                    <h2>R12</h2>
+                    <div className='price-underline'></div>
+                    <div className='select-btn'>
+                        <p>SELECT</p>
+                        <MdDoubleArrow  className='ml-1'/>
+                    </div>
+
+                </div>
+                <Slideone/>
+
+            </div>
+           </SwiperSlide>
         </div>
     );
 };
