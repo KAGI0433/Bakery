@@ -5,7 +5,7 @@ import Menu from './Menu'
 import Products from './Products/Products';
 
 
-const Home = () => {
+const Connect = () => {
     return (
         <div>
             <Navbar />
@@ -16,4 +16,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Connect;
