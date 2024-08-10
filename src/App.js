@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './components/Connect'
+import Connect from './components/Connect'
 import './App.css';
 import { useEffect } from 'react';
 import Aos from "aos";
@@ -13,7 +13,7 @@ function App() {
   },[])
  return (
   <div>
-    <Home />
+    <Connect />
   </div>
  );
    
