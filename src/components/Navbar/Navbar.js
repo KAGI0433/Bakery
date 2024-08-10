@@ -8,11 +8,7 @@ const Navbar = () => {
         <div className='navbar-container'>
 
           <div className='navbar-sub-container'>
-
-            <div className='burger-menu'>
-            <GiHamburgerMenu className='burger-menu-icon'/>
-                <p>Department</p>
-            </div>
+           
 
             <div className='navbar'>
                 <ul className='anim-nav'>
@@ -22,6 +18,8 @@ const Navbar = () => {
 
 
                 </ul>
+                 </div>
+
             </div>
           </div>
         </div>
