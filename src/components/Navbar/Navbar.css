@@ -7,31 +7,7 @@
     display: grid;
     align-content: center;
 }
-.navbar-sub-container{
-    display: flex;
-    align-items: center;
-    gap: 55px;
-}
 
-.burger-menu{
-    width: 313px;
-    height: 41px;
-    display: flex;
-    align-items: center;
-    border-radius: 20.5px;
-    background-color: #EFF400;
-    padding: 20px;
-}
-.burger-menu p{
-    font-size: 20px;
-    color: #438439;
-    margin-left: 13px;
-}
-.burger-menu-icon{
-    width: 31px;
-    height: 31px;
-    color: #AAAAAA;
-}
 
 .navbar ul{
     display: flex;
